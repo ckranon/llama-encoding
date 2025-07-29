@@ -50,7 +50,7 @@ def main():
                     file_path = os.path.join(data_dir, f"{prompt_id}.txt") # Using data_dir variable
 
                     with open(file_path, "w", encoding="utf-8") as f:
-                        f.write(f"Text ID: {prompt_id}\n")
+                        #f.write(f"Text ID: {prompt_id}\n")
                         f.write(f"Response:\n{response_text or '[NO RESPONSE]'}")
 
             # No need to explicitly close cursor and connection with 'with' statements
